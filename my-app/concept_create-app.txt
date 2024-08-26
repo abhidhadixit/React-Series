@@ -1,0 +1,9 @@
+build ko hum ignore karte hai
+node module folder contains all the dependencies of the package.json file which is downloaded and then showed in this folder 
+manifest file m mobile webistes per jo jarurat hota hai woh hoti hai 
+
+react - core library hai 
+react dom- implementation hai hamari react on web
+react native-implementation hai hamari react libraries ka on mobile
+
+react khud ka dom banata hai jisme ek method hoti hai that is called createRoot 
