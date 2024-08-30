@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-function Hookcounter3(){
+function Hooktypethree(){
   const [name,setname]=useState({firstname:'',lastname:''})
   return (
     <form>
@@ -11,4 +11,4 @@ function Hookcounter3(){
     </form>
   )
 }
-export default Hookcounter3;
+export default Hooktypethree;

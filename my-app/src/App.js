@@ -1,18 +1,24 @@
-import Hook from './components/Hook';  
-import Hookcounter2 from './components/Hookcounter2';
-import Hookcounter3 from './components/Hookcounter3';
-import Hookcounter4 from './components/Hookcounter4';
-import UseEffect1 from './components/UseEffect1';
+ import Hooktypeone from './components/Hooktypeone';  
+import Hooktypetwo from './components/Hooktypetwo';
+import Hooktypethree from './components/Hooktypethree';
+import Hooktypefour from './components/Hooktypefour';
+// import UseEffect1 from './components/UseEffectone';
+import Mousehook from './components/Mousehook';
+import UseEffectone from './components/UseEffecttwo';
+import UseEffecttwo from './components/UseEffecttwo';
 function App() {
   return (
     <>
-    <Hook />
-    <Hookcounter2 />
-    <Hookcounter3 />
-    < Hookcounter4 />
-    <UseEffect1 />
+    <Hooktypeone />
+    <Hooktypetwo />
+    <Hooktypethree />
+    < Hooktypefour />
+    <UseEffectone />
+    <UseEffecttwo />
+    <Mousehook />
     </>
   );
 }
-
 export default App;
+
+// export default App;

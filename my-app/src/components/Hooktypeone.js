@@ -1,7 +1,7 @@
 
 import React ,{useState} from 'react'
 
-function Hooks() {
+function Hooktypeone() {
     const [count,setCount]=useState(0)
   return (
     <div>
@@ -10,4 +10,4 @@ function Hooks() {
   )
 }
 
-export default Hooks;
+export default Hooktypeone;

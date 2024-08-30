@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-function HookCounter4(){
+function Hooktypefour(){
     const [items,setItems]=useState([])
     const additem=()=>{
         setItems([...items,{
@@ -21,4 +21,4 @@ function HookCounter4(){
         </div>
     )
 }
-export default HookCounter4;
+export default Hooktypefour;

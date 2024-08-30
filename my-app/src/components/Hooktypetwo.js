@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 
-function Hookcounter2() {
+function Hooktypetwo() {
     const inialcount=0;
     const [count,setCount]=useState(inialcount);
     const incrementfive=()=>{
@@ -20,4 +20,4 @@ function Hookcounter2() {
     </div>
   );
 }
-export default Hookcounter2;
+export default Hooktypetwo;
