@@ -1,10 +1,10 @@
 import React from 'react'
-import UsecontextF from './components/UsecontextF'
+import UseContextF from './components/UseContextF'
 
 function UsecontextE() {
   return (
     <div>
-        < UsecontextF />
+        < UseContextF />
     </div>
   )
 }

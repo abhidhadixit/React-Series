@@ -1,8 +1,8 @@
 // UsecontextA.js
 import React, { useContext } from 'react';
-import { CountContext } from '../App2';
+import { CountContext } from '../App';
 
-function UsecontextF() {
+function UseContextF() {
   const countContext = useContext(CountContext);
 
   return (
@@ -15,4 +15,4 @@ function UsecontextF() {
   );
 }
 
-export default UsecontextF;
+export default UseContextF;
