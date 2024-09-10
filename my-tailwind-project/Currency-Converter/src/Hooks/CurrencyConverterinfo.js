@@ -13,4 +13,4 @@ function CurrencyConverterinfo(currency) {
     
 }
 
-export default CurrencyConverterinfo ; jdsgkljkl;
+export default CurrencyConverterinfo ; 
