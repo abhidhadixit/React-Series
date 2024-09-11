@@ -1,16 +1,17 @@
+import React from 'react'
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import {Input} from '.c/omponents'
+import CurrencyConverterinfo from './Hooks/CurrencyConverterinfo'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+    const [amount,setAmount]=useState(0)
+    const [from ,setFrom]=useState("usd")
+    const [to ,setTo]=useState("inr")
+    const [convertedAmount,setConvertedAmount]=useState(0)
   return (
-    <>
-    <h1>hey good morning </h1>
-    </>
-  )
+    <div>App</div>
+  ) 
 }
 
 export default App
